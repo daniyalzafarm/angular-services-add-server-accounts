@@ -6,7 +6,7 @@ import { LoggingService } from '../services/logging.service';
   templateUrl: './new-account.component.html',
   styleUrls: ['./new-account.component.css'],
   // providers: [LoggingService, AccountsService], // AccountsService is inherited from parent
-  providers: [LoggingService],
+  // providers: [LoggingService], // Declare in app.module.ts
 })
 export class NewAccountComponent {
   // @Output() accountAdded = new EventEmitter<{ name: string; status: string }>();

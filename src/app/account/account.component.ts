@@ -7,7 +7,7 @@ import { LoggingService } from '../services/logging.service';
   templateUrl: './account.component.html',
   styleUrls: ['./account.component.css'],
   // providers: [LoggingService, AccountsService], // AccountsService is inherited from parent
-  providers: [LoggingService],
+  // providers: [LoggingService], // Declare in app.module.ts
 })
 export class AccountComponent {
   @Input() account!: { name: string; status: string };
